@@ -16,6 +16,6 @@ end
 
 group :development, :test do
   gem 'rubocop', '~> 1.13'
-  gem 'rubocop-rake', '~> 0.5.1'
+  gem 'rubocop-rake', '~> 0.6.0'
   gem 'rubocop-sequel', '~> 0.2.0'
 end
