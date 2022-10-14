@@ -10,7 +10,7 @@ module Routes
   class Auth < Cuba
     define do
       on get, 'me' do
-        payload = env['jwt.payload']
+        payload = require_jwt!
 
         token = Services::Users::Tokens.refresh_token(payload)
         user = Services::Users::Tokens.user_from_token(payload)

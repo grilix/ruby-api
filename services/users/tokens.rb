@@ -1,6 +1,6 @@
 require 'jwt'
 
-HMAC_SECRET = ENV['HMAC_SECRET']
+HMAC_SECRET = ENV.fetch('HMAC_SECRET')
 TOKEN_DURATION = 12 * 60 * 60 # 12 horas
 
 module Services

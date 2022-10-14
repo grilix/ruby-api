@@ -1,3 +1,10 @@
+require 'rake/testtask'
+
+Rake::TestTask.new do |t|
+  t.test_files = FileList['test/**/test_*.rb']
+  t.verbose = true
+end
+
 namespace :db do
   desc 'Run migrations'
   task :migrate, [:version] do |_t, args|

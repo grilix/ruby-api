@@ -1,20 +1,16 @@
 require 'cuba'
-require 'rack/jwt'
+# require 'rack/jwt'
+
+require './middleware/rack_jwt'
 
 require './routes/plugins/api'
 require './routes/auth'
 
 require './db/connect'
 
-Cuba.use Rack::JWT::Auth, {
+Cuba.use(Middleware::RackJWT, {
   secret: ENV.fetch('HMAC_SECRET'),
-  verify: true,
-  options: { algorithm: 'HS256' },
-  exclude: [
-    '/api/v1/status',
-    '/api/v1/auth/login',
-  ],
-}
+})
 
 Cuba.plugin Routes::Plugins::API
 
