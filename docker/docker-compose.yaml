@@ -1,0 +1,36 @@
+---
+version: '3'
+
+services:
+  api:
+    image: ruby:3.0
+
+    working_dir: /usr/src/app
+    command:
+      - bundle
+      - exec
+      - shotgun
+      - --host=0.0.0.0
+      - --port=3000
+      - config.ru
+    env_file:
+      - ../.env
+    environment:
+      RACK_ENV: development
+      GEM_HOME: /usr/src/gems
+      DATABASE_URL: postgres://postgres:secure-password@db/postgres
+    ports:
+      - 3001:3000
+    volumes:
+      - ..:/usr/src/app
+      - gems:/usr/src/gems
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: secure-password
+
+volumes:
+  gems: {}
