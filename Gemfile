@@ -4,7 +4,7 @@ gem 'bcrypt', '~> 3.1.16'
 gem 'cuba', '~> 3.9.3'
 gem 'json', '~> 2.5.1'
 gem 'pg', '~> 1.2.3'
-gem 'rack-jwt', '~> 0.4.0'
+gem 'rack-jwt', '~> 0.5.0'
 gem 'scrivener', '~> 1.1.1'
 gem 'sequel', '~> 5.43'
 
