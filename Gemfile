@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bcrypt', '~> 3.1.18'
 gem 'cuba', '~> 3.9.3'
-gem 'json', '~> 2.6.2'
+gem 'json', '~> 2.6.3'
 gem 'jwt', '~> 2.5'
 gem 'pg', '~> 1.4.5'
 gem 'rack', '~> 2.2.4'
