@@ -7,7 +7,7 @@ gem 'jwt', '~> 2.5'
 gem 'pg', '~> 1.4.5'
 gem 'rack', '~> 2.2.4'
 gem 'scrivener', '~> 1.1.1'
-gem 'sequel', '~> 5.62'
+gem 'sequel', '~> 5.63'
 
 group :development do
   gem 'rake', '~> 13.0.6'
