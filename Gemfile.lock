@@ -11,7 +11,7 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     json (2.6.3)
-    jwt (2.5.0)
+    jwt (2.6.0)
     minitest (5.16.3)
     minitest-reporters (1.5.0)
       ansi
@@ -64,7 +64,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.18)
   cuba (~> 3.9.3)
   json (~> 2.6.3)
-  jwt (~> 2.5)
+  jwt (~> 2.6)
   minitest (~> 5.16.3)
   minitest-reporters (~> 1.5.0)
   pg (~> 1.4.5)
