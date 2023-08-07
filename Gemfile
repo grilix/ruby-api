@@ -5,7 +5,7 @@ gem 'cuba', '~> 3.9.3'
 gem 'json', '~> 2.6.3'
 gem 'jwt', '~> 2.7'
 gem 'pg', '~> 1.5.3'
-gem 'rack', '~> 2.2.7'
+gem 'rack', '~> 2.2.8'
 gem 'scrivener', '~> 1.1.1'
 gem 'sequel', '~> 5.70'
 
