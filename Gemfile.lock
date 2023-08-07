@@ -3,7 +3,7 @@ GEM
   specs:
     ansi (1.5.0)
     ast (2.4.2)
-    bcrypt (3.1.18)
+    bcrypt (3.1.19)
     builder (3.2.4)
     cuba (3.9.3)
       rack (>= 1.6.0)
@@ -64,7 +64,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bcrypt (~> 3.1.18)
+  bcrypt (~> 3.1.19)
   cuba (~> 3.9.3)
   json (~> 2.6.3)
   jwt (~> 2.7)
