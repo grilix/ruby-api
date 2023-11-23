@@ -10,7 +10,7 @@ gem 'scrivener', '~> 1.1.1'
 gem 'sequel', '~> 5.74'
 
 group :development do
-  gem 'rake', '~> 13.0.6'
+  gem 'rake', '~> 13.1.0'
   gem 'shotgun', '~> 0.9.2'
   gem 'thin', '~> 1.8'
 end
