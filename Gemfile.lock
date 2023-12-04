@@ -11,7 +11,7 @@ GEM
     daemons (1.4.1)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
-    json (2.6.3)
+    json (2.7.0)
     jwt (2.7.1)
     language_server-protocol (3.17.0.3)
     minitest (5.20.0)
@@ -68,7 +68,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.19)
   cuba (~> 3.9.3)
-  json (~> 2.6.3)
+  json (~> 2.7.0)
   jwt (~> 2.7)
   minitest (~> 5.20.0)
   minitest-reporters (~> 1.6.1)
