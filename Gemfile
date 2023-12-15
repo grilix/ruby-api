@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'bcrypt', '~> 3.1.19'
+gem 'bcrypt', '~> 3.1.20'
 gem 'cuba', '~> 3.9.3'
 gem 'json', '~> 2.7.1'
 gem 'jwt', '~> 2.7'
